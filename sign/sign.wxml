@@ -1,0 +1,41 @@
+<view class="view">
+    <view class="page-slidebar">
+        <l-list title="进行中任务" icon="notification" icon-color="red" icon-size="45"  gap="10" is-link="{{false}}"/>
+        <scroll-view class="item-box" scroll-y >
+           <view wx:for="{{n}}" wx:key="*this"data-index="{{index}}" bindtap="list_ch" >
+            <l-list tag-color="{{index==idxNum?'green':'white'}}" title="{{index+1}}.任务" tag-position="right" tag-content="当前"	tag-shape="circle" gap="10"/>
+           </view>
+         </scroll-view>
+        <l-list title="未开始任务" icon="notification" icon-size="45" left-gap="10" is-link="{{false}}"/>
+        <scroll-view class="item-box" scroll-y>
+          <view wx:for="{{m}}" wx:key="*this">
+            <l-list title="{{index+1}}.任务" gap="10"/>
+           </view>
+        </scroll-view>
+    </view>
+    
+   <view class="page-top {{open ? 'c-state1' : ''}}">
+
+   <view class="mapController">
+   <map id="map" 
+   longitude="{{longitude}}" 
+   latitude="{{latitude}}"   
+   show-location="true" 
+   bindtap="tap_ch_map">
+   </map>
+   </view>
+ 
+   <l-button l-class="btn1" type="success"bindtap="gotosignin" >签到</l-button> 
+  
+
+   <l-button special="{{true}}">
+     <l-icon  l-class="btn2" name ="add" size="60" color="#000" bindtap="gotoregister" > </l-icon>
+   </l-button>
+
+   <l-button special="{{true}}" bindtap="tap_ch">
+     <l-icon  l-class="btn3" name ="order" size="60" color="#000"> </l-icon>
+   </l-button>
+
+   </view>
+ 
+</view>

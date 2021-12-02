@@ -1,0 +1,50 @@
+.addImv{
+    margin-top:10rpx;
+    height: 200rpx;
+    display: flex;
+    
+    padding: 0 20rpx;
+}
+/*添加图片*/
+.addImv .chooseView{
+    width: 160rpx;
+    height: 160rpx;
+    margin-left: 10rpx;
+    text-align: center;
+    line-height: 180rpx;
+}
+.addImv .chooseImv{
+    width: 164rpx;
+    height:164rpx;
+}
+/*已选择的图片*/
+.addImv .upFile{
+    margin-left: 10rpx;
+    width: 160rpx;
+    height:160rpx;
+    position: relative;
+}
+.addImv .upFile .itemImv{
+    width: 100%;
+    height: 100%;
+}
+.addImv .upFile .closeImv{
+    position: absolute;
+    right: 0rpx;
+    top: 0rpx;
+    width: 50rpx;
+    height:50rpx;
+}
+.textarea{
+    font-size: 30rpx;
+    margin: auto;
+    width: 97%;
+    height: 200rpx;  
+}
+
+.l-form-btn-class{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rpx;
+}
+  

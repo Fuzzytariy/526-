@@ -1,0 +1,35 @@
+<l-form name="mission" l-form-btn-class="l-form-btn-class" bind:linsubmit="submit">
+    <l-form-item  name="missionName">
+        <l-input id="missionName" value="{{mission.name}}" label="任务名称:" show-row="{{false}}"/>
+    </l-form-item>
+
+    <picker mode="date" value="{{date}}" start="2020-01-01" end="2030-12-31" >
+    <view label="任务名称:" class="tui-picker-detail">
+        请选择日期: {{date}}
+    </view>
+    </picker>
+
+    <picker mode="time" value="{{timestart}}" start="00:00" end="23:59" >
+    <view class="tui-picker-detail">
+        请选择起始时间: {{timestart}} 
+    </view>
+    </picker>
+
+    <picker mode="time" value="{{timeend}}" start="00:00" end="23:59" >
+    <view class="tui-picker-detail">
+        请选择结束时间: {{timeend}} 
+    </view>
+    </picker>
+
+
+    <l-l-form-item>
+        <l-textarea  placeholder="写一写任务的简介..."  />
+    </l-l-form-item>
+
+    <view slot="submit">
+        <l-button type="default" bindtap="showok">提交</l-button>
+    </view>
+    <view slot="reset">
+        <l-button type="default" plain>重置</l-button>
+    </view>
+</l-form>

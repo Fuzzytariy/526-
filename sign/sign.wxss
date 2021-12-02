@@ -1,0 +1,64 @@
+/* pages/sign/sign.wxss */
+.mapController map{
+  width: 100vw;
+  height: 100vh;
+}
+
+.sign-block1{
+  display: flex;
+  justify-content: center;
+}
+.btn1{
+  position:absolute;
+  bottom:200rpx;
+  left:300rpx;
+}
+
+.btn2{
+  position: absolute;
+  bottom: 3%;
+  left:87%;
+}
+
+.btn3{
+  position: absolute;
+  bottom: 93%;
+  left:3%;
+
+}
+
+/*设置滑动*/
+.c-state1{
+  transform: rotate(0deg) scale(1) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(1) translate(75%,0%); 
+}
+/*主页面样式*/
+.page-top {
+  height: 100%;
+  position: fixed;
+  width: 750rpx;
+  background-color:white;
+  z-index: 0;
+  transition: All 0.4s ease;
+  -webkit-transition: All 0.4s ease;
+}
+/*子页面样式*/
+.page-slidebar {
+  height: 100%;
+  width: 565rpx;
+  position: fixed;
+  z-index: 0;
+}
+
+
+
+.item-box{
+  font-size: 25rpx;
+  border: solid 1rpx  #cccccc;
+  height: 450rpx;
+ }
+  
+
+
+
+

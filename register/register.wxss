@@ -1,0 +1,22 @@
+.l-form-btn-class{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rpx;
+}
+
+.tui-picker-detail{
+    position:relative;display:-webkit-flex;
+    display:flex;
+    box-sizing:border-box;
+    width:100%;
+    padding:10px 16px;
+    padding:var(--cell-vertical-padding,10px) var(--cell-horizontal-padding,16px);
+    font-size:14px;
+    font-size:var(--cell-font-size,14px);
+    line-height:24px;
+    line-height:var(--cell-line-height,24px);
+    color:#323233;
+    color:var(--cell-text-color,#323233);
+    background-color:#fff;
+    background-color:var(--cell-background-color,#fff);
+}

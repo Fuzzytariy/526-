@@ -1,0 +1,25 @@
+<!--pages/signin/signin.wxml-->
+<text decode="{{true}}">&nbsp;</text>
+<textarea  class="textarea" placeholder="写写签到的备注..."  ></textarea>
+<view class="addImv">
+    <!--这个是已经选好的图片-->
+    <block wx:for="{{imgArr}}" wx:key="key">
+        <view class="upFile" bindtap="showImage" style="border-radius: 5px" data-id="{{index}}">
+            <image class="itemImv" src="{{item}}"></image>
+            <image class="closeImv" src="../../images/删除.png" mode="scaleToFill" catchtap="deleteImv"  data-id="{{index}}"></image>
+        </view>
+    </block>
+    <!--这个是选择图片-->
+    <view class="chooseView" bindtap="chooseImage" style="border-radius: 5px" wx:if="{{chooseViewShow}}">
+        <image class="chooseImv" mode="widthFix" src="../../images/添加.png"></image>
+    </view>
+</view>
+
+<l-list title="目前任务" icon="eye" icon-color="black" icon-size="45"  gap="30" />
+<l-list title="目前位置" icon="address" icon-color="black" icon-size="45"  gap="30"/>
+
+<l-form l-form-btn-class="l-form-btn-class" >
+<view slot="submit">
+        <l-button type="default" bindtap="showok">提交</l-button>
+    </view>
+</l-form>
