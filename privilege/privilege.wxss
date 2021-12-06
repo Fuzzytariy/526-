@@ -1,0 +1,20 @@
+/* pages/privilege/privilege.wxss */
+
+.radioGroup{
+  margin:60rpx 20rpx;
+}
+
+.buttonBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttonBox l-button{
+  margin: 100rpx 50rpx;
+}
+.l-form-item{
+  margin:60rpx 20rpx;
+}
+.box{
+  margin-top: 20%;
+}

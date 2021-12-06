@@ -1,0 +1,46 @@
+.img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#0359A2;
+}
+.img image{
+  width: 200rpx;
+  margin: 20% auto 10% auto ;
+  border-radius: 50%;       
+}
+.buttonBlock{
+  text-align: center;
+}
+.img text{
+  margin-bottom: 5%; 
+  font-size: 1.8em;
+  color: aliceblue;
+}
+.buttonBlock button{
+  margin-top: 10%;
+}
+
+.listBlock{
+  margin: 50rpx auto;
+  width: 90%;
+  height: 500rpx;
+  box-shadow:10rpx 10rpx 5rpx 10rpx rgba(85,85,85,0.10);
+  padding:20rpx;
+  font-size: 25px;
+  }
+.feedBlock{
+  position: relative;
+}
+.feedBlock button{
+  bottom: 14rpx;
+  width: 50vw;
+  height: 80rpx;
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+}
+
+
+  
+  

@@ -1,0 +1,27 @@
+<!--pages/privilege/privilege.wxml-->
+<view class='box'>
+  <form>
+  <view class='Infobox'>
+   <l-input label="标题"  placeholder="你想要申请的权限" />
+   <l-input label="电话：" type="radio" placeholder="请输入电话" />
+   <l-input label="姓名" type="number" placeholder="请输入名字" />
+  </view>
+  <view>
+    <l-radio-group  l-class='radioGroup' placement="row">
+      <l-radio key="1"><text>宿管员</text></l-radio>
+      <l-radio key="2"><text>辅导员</text></l-radio>
+      <l-radio key="3"><text>宿舍长</text></l-radio>
+    </l-radio-group>
+  </view>
+  <view class='l-form-item'>
+    <l-l-form-item>
+        <l-textarea  placeholder="写一写申请的理由..."  />
+    </l-l-form-item>
+  </view>  
+
+    <view class='buttonBox'>
+        <l-button>提交</l-button> 
+        <l-button type="default" plain>重置</l-button>
+    </view>
+  </form>
+  </view>    

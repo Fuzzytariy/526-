@@ -1,0 +1,27 @@
+<!--pages/person/person.wxml-->
+<view class='box'>
+<view class="news1-container">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2000}}" circular="{{true}}"> 
+        <swiper-item>
+            <image class="logo"src="/pages/images/信息1.png" mode="widthFix" ></image>  
+        </swiper-item>
+        <swiper-item>
+            <image class="logo"src="/pages/images/信息2.png" mode="widthFix"></image>  
+        </swiper-item>
+        <swiper-item>
+            <image class="logo"src="/pages/images/信息3.png" mode="widthFix"></image>  
+        </swiper-item>
+    </swiper>
+</view>
+
+    <view class='infoBox'>
+        <l-list title="姓名：" icon="user"/>
+        <l-list title="学号：" icon="user"/>
+        <l-list title="学院：" icon="user"/>
+        <l-list title="班级："  icon="user"/>
+        <l-list title="楼层及宿舍号："  icon="user"/>
+        <l-list title="QQ：" icon="user"/>
+        <l-list title="电话（同微信号）：" icon="user"/>
+        <l-list title="辅导老师：" icon="user"/>
+    </view>
+</view>

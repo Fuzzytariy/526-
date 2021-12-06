@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-massage":"../../miniprogram_npm/lin-ui/message/index",
+    "l-button":"../../miniprogram_npm/lin-ui/button/index",
+    "l-list":"../../miniprogram_npm/lin-ui/list/index"
+  
+  }
+}

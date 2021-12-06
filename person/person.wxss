@@ -1,0 +1,19 @@
+/* pages/person/person.wxss */
+
+swiper-item image{
+  width: 100vw;
+  
+}
+
+.infoBox{
+  margin: 50rpx auto;
+  width: 90%;
+  height: 500rpx;
+  padding:20rpx;
+  font-size: 25px;
+}
+.button-box{
+  margin: 7% 35%;
+  position:absolute; 
+  bottom:200rpx; 
+}

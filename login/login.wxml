@@ -1,0 +1,20 @@
+<view class="img">
+  <image src="{{iconUrl}}" mode="widthFix"></image>
+  <text>{{name}}</text>
+</view>
+<view>
+  <view class="buttonBlock" hidden="{{isLogin}}">
+    <button type="default" plain="{{true}}" bindtap="getInfo">登录</button>
+  </view>
+  <view class='listBlock' hidden="{{!isLogin}}"> 
+    <l-list title="个人信息" icon="user" bindtap="jump" data-target="person"/>
+    <view class="feedBlock">
+      <l-list title="反馈信息" icon="comment"/>
+      <button open-type="contact"></button>
+      <button open-type="contact" style="left: 50%;"></button>
+    </view>
+    <l-list title="申请权限" icon="to-top" bindtap="jump" data-target="privilege"/>
+    <l-list title="修改信息" icon="edit" bindtap="jump" data-target=""/>
+    <l-list title="关于" icon="ellipsis"/>
+  </view>
+</view>
