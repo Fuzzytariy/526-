@@ -1,0 +1,31 @@
+<l-form  bind:linsubmit="submit" name="stuInfo">
+    <view class='box'>
+        <l-form-item name="name">
+            <l-input   label="姓名：" placeholder="请输入姓名" />
+        </l-form-item>
+        <l-form-item name="sno">
+            <l-input label="学号："  placeholder="请输入学号" />
+        </l-form-item>
+        <l-form-item  name="department">
+            <l-input label="学院：" placeholder="形如：智能装备学院" />
+        </l-form-item>
+        <l-form-item  name="class">
+            <l-input  label="班级：" placeholder="形如：计算机科学与技术19-1" />
+        </l-form-item>
+        <l-form-item  name="domInfo">
+            <l-input  label="宿舍：" placeholder="形如：8号楼101" />
+        </l-form-item>
+        <l-form-item  name="qq">
+            <l-input  label="QQ：" placeholder="请输入QQ号" />
+        </l-form-item>
+        <l-form-item  name="tel">
+            <l-input  label="电话：" placeholder="请输入联系电话（同微信号）" />
+        </l-form-item>
+        <l-form-item name="mentor">
+            <l-input    label="导员：" placeholder="请输入辅导老师姓名" />
+        </l-form-item>
+    </view>
+    <view class="box2" slot="submit">
+        <l-button l-class='center'>修改</l-button>
+    </view>
+</l-form>

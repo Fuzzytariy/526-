@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-input":"../../miniprogram_npm/lin-ui/input",
+    "l-button":"../../miniprogram_npm/lin-ui/button",
+    "l-form":"../../miniprogram_npm/lin-ui/form"
+  }
+}

@@ -1,0 +1,14 @@
+/* pages/amend/amend.wxss */
+.box{
+    margin: 50rpx 20rpx;
+    padding:20rpx;
+    box-shadow: 5rpx 3rpx 5rpx 5rpx rgba(85,85,85,0.10);
+}
+.center{
+  margin: 0 auto;
+}
+.box2{
+  margin-top: 150rpx;
+  display: flex;
+  justify-content: center;
+}
