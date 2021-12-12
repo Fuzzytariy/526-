@@ -1,0 +1,33 @@
+/* pages/about/about.wxss */
+.box1 {
+  color: slategray;
+  size: 15rpx;
+}
+
+.box2 {
+  color: slategray;
+  size: 20rpx;
+}
+
+.box4 {
+  margin: 20% 10% 2% 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.box3 {
+  color: slategray;
+  size: 20rpx;
+}
+
+.box5 {
+  margin: 5% 20% 2% 2%;
+}
+
+.box6 {
+  margin: 9% 30% 5% 10%;
+}
+
+.box7 {
+  margin: 5% 2% 2% 15%;
+}

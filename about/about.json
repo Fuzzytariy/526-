@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-card":"../../miniprogram_npm/lin-ui/card",
+    "l-rate":"../../miniprogram_npm/lin-ui/rate",
+    "l-form":"../../miniprogram_npm/lin-ui/form"
+  }
+}

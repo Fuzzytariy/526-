@@ -1,0 +1,38 @@
+<view class='box5'>
+<l-card type="primary"
+          plaintext="{{true}}"
+          title="山东科技大学宿舍管理平台：">
+    <view class="content">
+<view class="box1">  好地方就爱还是觉得放寒假暗室逢灯机会撒娇很费劲阿双方均挥洒京东方哈萨克回复可见爱神的箭发货撒可富黄金卡束带结发</view>
+    </view>
+  </l-card>
+</view>
+<view class='box7'>
+  <l-card type="primary"
+          plaintext="{{true}}"
+          title="程序开发者：">
+    <view class="content">
+<view class="box3">开发者1：:1232231123123</view>
+<view class="box3">开发者2：:1232231123123</view>
+<view class="box3">开发者3：:1232231123123</view>
+<view class="box3">开发者4：:1232231123123</view>
+    </view>
+  </l-card>
+</view>
+  <view class='box6'>
+  <l-card type="primary"
+          plaintext="{{true}}"
+          title="小程序版本：">
+    <view class="content">
+<view class="box2">1.01</view>
+    </view>
+  </l-card>
+</view>
+<l-form  bind:linsubmit="submit" name="stuInfo">
+  <view class="box4">
+      <l-form-item name="rate">
+        <text>小程序评分:</text>
+    <l-rate score="0" count="5" size="40" bind:linChange="changeScore" />
+        </l-form-item>
+  </view>
+</l-form>
